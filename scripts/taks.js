@@ -5,8 +5,6 @@ if (!localStorage.jwt) {
 }
 /* ------ comienzan las funcionalidades una vez que carga el documento ------ */
 window.addEventListener('load', function () {
-  AOS.init();
-
   /* ---------------- variables globales y llamado a funciones ---------------- */
   const URL = "https://todo-api.ctd.academy/v1"
   const uriUsuarios = URL + "/users/getMe"
